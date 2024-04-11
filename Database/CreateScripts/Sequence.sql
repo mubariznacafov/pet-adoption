@@ -1,0 +1,1 @@
+﻿CREATE SEQUENCE "customer_seq" MINVALUE 1 INCREMENT BY 1;
