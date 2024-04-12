@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("animal-adoption-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ad31d4bb8f4a63a3c01887fff3088900e1f611e")]
 [assembly: System.Reflection.AssemblyProductAttribute("animal-adoption-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("animal-adoption-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
