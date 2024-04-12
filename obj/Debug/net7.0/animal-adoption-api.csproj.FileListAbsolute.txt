@@ -114,3 +114,6 @@ C:\Users\99470\Desktop\Startup-Adopt Me\animal-adoption-api\animal-adoption-api\
 C:\Users\99470\Desktop\Startup-Adopt Me\animal-adoption-api\animal-adoption-api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\99470\Desktop\Startup-Adopt Me\animal-adoption-api\animal-adoption-api\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\99470\Desktop\Startup-Adopt Me\animal-adoption-api\animal-adoption-api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\99470\Desktop\Startup-Adopt Me\animal-adoption-api\animal-adoption-api\bin\Debug\net7.0\Template\guest-pet\package-lock.json
+C:\Users\99470\Desktop\Startup-Adopt Me\animal-adoption-api\animal-adoption-api\bin\Debug\net7.0\Template\guest-pet\package.json
+C:\Users\99470\Desktop\Startup-Adopt Me\animal-adoption-api\animal-adoption-api\obj\Debug\net7.0\animal-adoption-api.sourcelink.json
