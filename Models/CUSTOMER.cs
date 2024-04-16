@@ -14,6 +14,10 @@ namespace animal.adoption.api.Models
         [Column("user_id")]
         public int UserId { get; set; }
 
+        [ForeignKey("Pet")]
+        [Column("pet_id")]
+        public int PetId { get; set; }
+
         [Column("name")]
         public string Name { get; set; }
 

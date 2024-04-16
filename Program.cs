@@ -34,6 +34,8 @@ builder.Services.AddTransient<IJwtHandler, JwtHandler>();
 builder.Services.AddTransient<IValidationCommon, ValidationCommon>();
 builder.Services.AddTransient<IAuthService, AuthService>();
 builder.Services.AddTransient<IPostService, PostService>();
+builder.Services.AddTransient<IPetService, PetService>();
+
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
 

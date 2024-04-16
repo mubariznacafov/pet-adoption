@@ -11,3 +11,18 @@ BEGIN
     PRINT 'Customer already added.'
 END;
 GO
+
+
+CREATE OR ALTER TRIGGER PET_TG
+ON [pet]
+INSTEAD OF INSERT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    DECLARE @NextID INT 
+    SELECT @Next = NEXT VALUE FOR pet_seq;
+
+
+    PRINT 'Pet already added.'
+END;
+GO

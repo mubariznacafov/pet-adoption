@@ -34,6 +34,7 @@ namespace animal.adoption.api.Infrastructure
         public DbSet<USER_ROLE> user_role { get; set; }
         public DbSet<STATIC_DATA> static_data { get; set; }
         public DbSet<POST> post { get; set; }
+        public DbSet<PET> pet { get; set; }
         public DbSet<EmailRequest>  email_request { get; set; }
         public DbSet<OTPVerification> otp_verification { get; set; }
        

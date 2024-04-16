@@ -13,11 +13,15 @@ namespace animal.adoption.api.Extensions
         {
             CreateMap<USER, RegisterDto>().ReverseMap();
             CreateMap<POST, PostDto>().ReverseMap();
+            CreateMap<PET, PetDto>().ReverseMap();
+
 
 
 
 
             CreateMap<POST, PostVM>().ReverseMap();
+            CreateMap<PET, PetVM>().ReverseMap();
+
 
             CreateMap<USER, JwtCustomClaims>()
                 .ForMember(dest => dest.UserId, opts => opts.MapFrom(src => src.Id))
